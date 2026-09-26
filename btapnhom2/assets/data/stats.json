@@ -1,0 +1,65 @@
+{
+  "_comment": "Tất cả số liệu đã xác minh từ nguồn chính thống. Xem docs/NGUON.md",
+  "poverty_rate_history": [
+    { "year": 1986, "rate": 70, "note": "Ước tính đầu Đổi mới — dangcongsan.org.vn" },
+    { "year": 1993, "rate": 58.1, "note": "Nguồn: GSO/WB — tapchikinhtetaichinh.vn" },
+    { "year": 2000, "rate": 28.9, "note": "Tiêu chí cũ — Ngân hàng Thế giới" },
+    { "year": 2010, "rate": 14.2, "note": "Tiêu chí cũ" },
+    { "year": 2020, "rate": 4.8, "note": "Đa chiều — UBDT" },
+    { "year": 2024, "rate": 1.93, "note": "Toàn quốc đa chiều — tapchikinhtetaichinh.vn / daibieunhandan.vn" }
+  ],
+  "dtts_stats": {
+    "poverty_rate_2024": {
+      "value": 12.55,
+      "unit": "%",
+      "year": 2024,
+      "source": "nhandan.vn, daibieunhandan.vn"
+    },
+    "poverty_reduction_per_year": {
+      "value": 3.4,
+      "unit": "%/năm",
+      "period": "2021-2024",
+      "source": "UBDT, thanhtra.com.vn"
+    },
+    "income_2025": {
+      "value": 45.9,
+      "unit": "triệu đồng/người/năm",
+      "year": 2025,
+      "note": "Ước tính",
+      "source": "daibieunhandan.vn"
+    },
+    "income_growth_factor": {
+      "value": 3.3,
+      "unit": "lần",
+      "period": "2020-2025",
+      "source": "daibieunhandan.vn"
+    }
+  },
+  "national_assembly": {
+    "term": "XV (2021-2026)",
+    "total_deputies": 499,
+    "dtts_deputies": 89,
+    "dtts_percentage": 17.84,
+    "source": "quochoi.vn"
+  },
+  "program_135": {
+    "phase1": {
+      "period": "1998-2005",
+      "communes_covered": 2362,
+      "infrastructure_projects": 20026,
+      "road_access_percentage": 96,
+      "budget_billion_vnd": 6795.7,
+      "source": "baocantho.com.vn, vietnamnet.vn"
+    },
+    "program_1719": {
+      "period": "2021-2030",
+      "budget_billion_vnd": 137664,
+      "source": "Nghị quyết 88/2019/QH14"
+    }
+  },
+  "boarding_schools": {
+    "count": 314,
+    "year": 2023,
+    "source": "Bộ Giáo dục và Đào tạo 2023"
+  }
+}

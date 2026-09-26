@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Infographic về Chính sách Dân tộc của Đảng Cộng sản Việt Nam thời kỳ Đổi mới (1986 – nay). Trình bày hành trình 40 năm củng cố đại đoàn kết dân tộc qua số liệu và mốc chính sách lịch sử." />
+  <meta name="keywords" content="chính sách dân tộc, ĐCSVN, đổi mới, dân tộc thiểu số, DTTS, Chương trình 135, Nghị quyết 24" />
+  <meta property="og:title" content="Chính sách Dân tộc ĐCSVN Thời kỳ Đổi mới (1986–Nay)" />
+  <meta property="og:description" content="40 năm hành trình bình đẳng, đoàn kết, tôn trọng và giúp nhau cùng phát triển" />
+  <meta property="og:type" content="website" />
+  <title>Chính sách Dân tộc ĐCSVN — Thời kỳ Đổi mới (1986–Nay)</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+
+<!-- ══════════════════════════════════
+     TOP NAV BAR
+     ══════════════════════════════════ -->
+<nav class="topbar" role="navigation" aria-label="Điều hướng chính">
+  <div class="container topbar__inner">
+    <a href="#hero" class="topbar__brand" aria-label="Về đầu trang">
+      <!-- Star SVG -->
+      <svg class="star-sm" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26" fill="currentColor"/>
+      </svg>
+      <span>CTDT ĐCSVN 1986–NAY</span>
+    </a>
+    <ul class="topbar__nav">
+      <li><a href="#timeline" id="nav-timeline">Lịch sử chính sách</a></li>
+      <li><a href="#pillars" id="nav-pillars">4 Trụ cột</a></li>
+      <li><a href="#stats" id="nav-stats">Thành tựu</a></li>
+      <li><a href="#conclusion" id="nav-conclusion">Bài học</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ══════════════════════════════════
+     SECTION 1 — HERO BANNER
+     ══════════════════════════════════ -->
+<section class="hero" id="hero" aria-label="Giới thiệu chủ đề">
+  <!-- Trống đồng pattern + photo background -->
+  <div class="hero__bg-pattern" aria-hidden="true"></div>
+  <!--
+    Ảnh nền (tìm từ Wikimedia Commons):
+    https://commons.wikimedia.org/wiki/File:Ethnic_groups_in_Vietnam.jpg
+    hoặc tương tự — ghi nguồn phía dưới
+    Uncomment khi có file ảnh:
+    <div class="hero__photo-bg" style="background-image:url('assets/images/hero-dtts.jpg')" role="img" aria-label="Đồng bào các dân tộc Việt Nam"></div>
+    <div class="hero__photo-overlay" aria-hidden="true"></div>
+  -->
+
+  <div class="hero__content">
+    <!-- Sao vàng 5 cánh SVG -->
+    <div class="hero__star" aria-hidden="true">
+      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <polygon
+          points="50,5 61,35 95,35 68,57 79,91 50,70 21,91 32,57 5,35 39,35"
+          fill="#FFD700"
+          stroke="#F9A825"
+          stroke-width="1.5"
+          filter="drop-shadow(0 0 8px rgba(255,215,0,0.8))"
+        />
+      </svg>
+    </div>
+
+    <p class="hero__eyebrow">Đại đoàn kết Dân tộc — 54 Dân tộc Anh em</p>
+
+    <h1 class="hero__title">
+      Chính sách Dân tộc<br />
+      của Đảng Cộng sản Việt Nam
+      <span class="year-badge">1986–Nay</span>
+    </h1>
+
+    <p class="hero__subtitle">
+      Hành trình thắp sáng niềm tin, củng cố sức mạnh Đại đoàn kết toàn dân tộc —<br />
+      40 năm kiên định đường lối đổi mới vì đồng bào các dân tộc thiểu số
+    </p>
+
+    <div class="hero__slogan" role="doc-subtitle">
+      "Bình đẳng – Đoàn kết – Tôn trọng – Giúp nhau cùng phát triển"
+    </div>
+
+    <div class="hero__badges" aria-label="Số liệu nổi bật">
+      <div class="hero__badge">
+        <span class="hero__badge-num">54</span>
+        <span class="hero__badge-label">Dân tộc anh em</span>
+      </div>
+      <div class="hero__badge">
+        <span class="hero__badge-num">40+</span>
+        <span class="hero__badge-label">Năm Đổi mới</span>
+      </div>
+      <div class="hero__badge">
+        <span class="hero__badge-num">14,1</span>
+        <span class="hero__badge-label">Triệu đồng bào DTTS</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero__scroll-hint" aria-hidden="true">
+    <span>Cuộn xuống</span>
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     SECTION 2 — VERTICAL TIMELINE
+     ══════════════════════════════════ -->
+<section class="timeline-section" id="timeline" aria-label="Lịch sử chính sách dân tộc">
+  <div class="container">
+    <header class="section-header" style="text-align:center; margin-bottom:56px;">
+      <p class="section-label" style="justify-content:center;">
+        <span>Hành trình chính sách</span>
+      </p>
+      <h2 class="section-title">Các Mốc Chiến lược <span class="accent">1986 – 2021</span></h2>
+      <p class="section-desc" style="margin:0 auto; text-align:center;">
+        Kế thừa và phát triển nhất quán đường lối dân tộc qua từng giai đoạn cách mạng
+      </p>
+    </header>
+
+    <div class="timeline" role="list">
+
+      <!-- Mốc 1: 1986 -->
+      <div class="timeline-item" role="listitem" data-animate="timeline">
+        <div class="timeline-card">
+          <span class="timeline-card__tag">Đại hội VI · 1986</span>
+          <h3 class="timeline-card__title">Đại hội Đại biểu Toàn quốc lần thứ VI (12/1986)</h3>
+          <p class="timeline-card__desc">
+            Khởi động công cuộc Đổi mới toàn diện. Đảng khẳng định phải tôn trọng đặc điểm, phong tục tập quán của các dân tộc; lấy phát triển kinh tế làm trung tâm gắn với bảo đảm quyền bình đẳng cho đồng bào dân tộc thiểu số.
+          </p>
+        </div>
+        <div class="timeline-node">
+          <div class="timeline-dot" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+            </svg>
+          </div>
+          <span class="timeline-year">1986</span>
+        </div>
+        <div class="timeline-empty"></div>
+      </div>
+
+      <!-- Mốc 2: 1989 -->
+      <div class="timeline-item" role="listitem" data-animate="timeline">
+        <div class="timeline-empty"></div>
+        <div class="timeline-node">
+          <div class="timeline-dot" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/>
+            </svg>
+          </div>
+          <span class="timeline-year">1989</span>
+        </div>
+        <div class="timeline-card">
+          <span class="timeline-card__tag">Nghị quyết 22-NQ/TW · 27/11/1989</span>
+          <h3 class="timeline-card__title">Phát triển Kinh tế – Xã hội Miền núi</h3>
+          <p class="timeline-card__desc">
+            Bộ Chính trị ban hành chủ trương phát triển KT-XH miền núi — bước ngoặt tư duy chuyển từ cứu trợ sang đầu tư phát triển bền vững cho vùng đồng bào dân tộc thiểu số.
+          </p>
+        </div>
+      </div>
+
+      <!-- Mốc 3: 2003 -->
+      <div class="timeline-item" role="listitem" data-animate="timeline">
+        <div class="timeline-card">
+          <span class="timeline-card__tag">Nghị quyết 24-NQ/TW · 12/3/2003</span>
+          <h3 class="timeline-card__title">Công tác Dân tộc — Nhiệm vụ Chiến lược</h3>
+          <p class="timeline-card__desc">
+            Ban Chấp hành Trung ương khóa IX xác định: "Công tác dân tộc có vị trí chiến lược cơ bản, lâu dài". Phương châm <strong>"Bình đẳng, đoàn kết, tương trợ giúp nhau cùng phát triển"</strong> được chính thức hóa. Đây là văn kiện nền tảng cho toàn bộ chính sách dân tộc giai đoạn tiếp theo.
+          </p>
+        </div>
+        <div class="timeline-node">
+          <div class="timeline-dot" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+          </div>
+          <span class="timeline-year">2003</span>
+        </div>
+        <div class="timeline-empty"></div>
+      </div>
+
+      <!-- Mốc 4: 2013 -->
+      <div class="timeline-item" role="listitem" data-animate="timeline">
+        <div class="timeline-empty"></div>
+        <div class="timeline-node">
+          <div class="timeline-dot" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="9" x2="15" y2="9"/><line x1="9" y1="12" x2="15" y2="12"/><line x1="9" y1="15" x2="13" y2="15"/>
+            </svg>
+          </div>
+          <span class="timeline-year">2013</span>
+        </div>
+        <div class="timeline-card">
+          <span class="timeline-card__tag">Hiến pháp 2013 · Điều 5</span>
+          <h3 class="timeline-card__title">Thể chế hóa Quyền Bình đẳng Dân tộc</h3>
+          <p class="timeline-card__desc">
+            Hiến pháp 2013 (Quốc hội khóa XIII, thông qua 28/11/2013) ghi rõ: Các dân tộc bình đẳng, đoàn kết, tôn trọng và giúp nhau cùng phát triển. Nghiêm cấm mọi hành vi kỳ thị, chia rẽ dân tộc. Các dân tộc có quyền dùng tiếng nói, chữ viết, giữ gìn bản sắc dân tộc.
+          </p>
+        </div>
+      </div>
+
+      <!-- Mốc 5: 2019 -->
+      <div class="timeline-item" role="listitem" data-animate="timeline">
+        <div class="timeline-card">
+          <span class="timeline-card__tag">Kết luận 65-KL/TW · 30/10/2019</span>
+          <h3 class="timeline-card__title">"Không để Dân tộc nào bị Bỏ lại Phía sau"</h3>
+          <p class="timeline-card__desc">
+            Bộ Chính trị khóa XII ban hành Kết luận tiếp tục thực hiện Nghị quyết 24. Tập trung nguồn lực đầu tư cho vùng đặc biệt khó khăn; nâng cao chất lượng đội ngũ cán bộ là người DTTS; phát huy vai trò người có uy tín trong cộng đồng.
+          </p>
+        </div>
+        <div class="timeline-node">
+          <div class="timeline-dot" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <span class="timeline-year">2019</span>
+        </div>
+        <div class="timeline-empty"></div>
+      </div>
+
+      <!-- Mốc 6: 2021 -->
+      <div class="timeline-item" role="listitem" data-animate="timeline">
+        <div class="timeline-empty"></div>
+        <div class="timeline-node">
+          <div class="timeline-dot" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+          </div>
+          <span class="timeline-year">2021</span>
+        </div>
+        <div class="timeline-card">
+          <span class="timeline-card__tag">Đại hội XIII · Chương trình 1719</span>
+          <h3 class="timeline-card__title">Khơi dậy Khát vọng Tự lực, Tự cường</h3>
+          <p class="timeline-card__desc">
+            Đại hội XIII (01/2021) đặt mục tiêu phát triển bền vững vùng DTTS &amp; miền núi. Chương trình MTQG 1719 (2021-2030) được phê duyệt với tổng vốn đầu tư ~137.664 tỷ đồng — chương trình quy mô lớn nhất từ trước đến nay dành cho đồng bào DTTS.
+          </p>
+        </div>
+      </div>
+
+    </div><!-- /.timeline -->
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     SECTION 3 — 4 PILLARS
+     ══════════════════════════════════ -->
+<section class="pillars-section" id="pillars" aria-label="4 Trụ cột chính sách cốt lõi">
+  <div class="container">
+    <header class="section-header">
+      <p class="section-label">4 Trụ cột chính sách</p>
+      <h2 class="section-title">Nền tảng <span class="accent">Phát triển Toàn diện</span></h2>
+      <p class="section-desc">
+        Bốn lĩnh vực trọng tâm được Đảng và Nhà nước tập trung đầu tư nhằm nâng cao đời sống toàn diện cho đồng bào dân tộc thiểu số
+      </p>
+    </header>
+
+    <div class="pillars-grid">
+
+      <!-- Trụ cột 1: Kinh tế - Hạ tầng -->
+      <article class="pillar-card pillar-card--economy" data-animate="pillar" aria-label="Kinh tế và Hạ tầng">
+        <div class="pillar-card__head">
+          <div class="pillar-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><line x1="12" y1="22" x2="12" y2="12"/>
+              <path d="M2 20h20M6 20V14M10 20V10M14 20V14M18 20V10"/>
+            </svg>
+          </div>
+          <div>
+            <p class="pillar-card__name">Trụ cột 1</p>
+            <h3 class="pillar-card__title">Kinh tế – Hạ tầng</h3>
+          </div>
+        </div>
+        <ul class="pillar-card__list">
+          <li>Chương trình 135 (1998–2020): 3 giai đoạn, phủ 2.362 xã đặc biệt khó khăn</li>
+          <li>Giai đoạn 1 (1998–2005): Xây 20.026 công trình hạ tầng; 96% xã có đường ô tô đến trung tâm xã</li>
+          <li>Vốn CT135 GĐ1: 6.795,7 tỷ đồng từ ngân sách Trung ương</li>
+          <li>Chương trình 1719 (2021–2030): ~137.664 tỷ đồng — lớn nhất từ trước đến nay</li>
+        </ul>
+        <div class="pillar-card__stat">
+          <span class="pillar-card__stat-num">20.026</span>
+          <span class="pillar-card__stat-text">công trình hạ tầng xây dựng trong CT135 Giai đoạn 1<br /><em style="font-size:10px;">Nguồn: VietnamNet, baocantho.com.vn</em></span>
+        </div>
+      </article>
+
+      <!-- Trụ cột 2: Văn hóa - Xã hội -->
+      <article class="pillar-card pillar-card--culture" data-animate="pillar" aria-label="Văn hóa và Xã hội">
+        <div class="pillar-card__head">
+          <div class="pillar-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>
+            </svg>
+          </div>
+          <div>
+            <p class="pillar-card__name">Trụ cột 2</p>
+            <h3 class="pillar-card__title">Văn hóa – Xã hội</h3>
+          </div>
+        </div>
+        <ul class="pillar-card__list">
+          <li>Bảo tồn và phát huy 53 ngôn ngữ dân tộc thiểu số còn sử dụng</li>
+          <li>Làng Văn hóa Du lịch các Dân tộc Việt Nam (Đồng Mô, Sơn Tây) — khai trương 2010</li>
+          <li>Xóa bỏ hủ tục: tảo hôn, hôn nhân cận huyết, ma chay kéo dài</li>
+          <li>Chính sách bảo tồn lễ hội, trang phục, kiến trúc truyền thống DTTS</li>
+        </ul>
+        <div class="pillar-card__stat">
+          <span class="pillar-card__stat-num">53</span>
+          <span class="pillar-card__stat-text">ngôn ngữ dân tộc thiểu số được bảo tồn và phát triển<br /><em style="font-size:10px;">Nguồn: Ủy ban Dân tộc (ubdt.gov.vn)</em></span>
+        </div>
+      </article>
+
+      <!-- Trụ cột 3: Giáo dục - Y tế -->
+      <article class="pillar-card pillar-card--edu" data-animate="pillar" aria-label="Giáo dục và Y tế">
+        <div class="pillar-card__head">
+          <div class="pillar-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
+            </svg>
+          </div>
+          <div>
+            <p class="pillar-card__name">Trụ cột 3</p>
+            <h3 class="pillar-card__title">Giáo dục – Y tế</h3>
+          </div>
+        </div>
+        <ul class="pillar-card__list">
+          <li>314 trường Phổ thông Dân tộc Nội trú (PTDTNT) toàn quốc (Bộ GD-ĐT, 2023)</li>
+          <li>Bảo hiểm y tế miễn phí 100% cho đồng bào dân tộc thiểu số</li>
+          <li>Chương trình quốc gia xóa mù chữ vùng DTTS và miền núi</li>
+          <li>Ưu tiên tuyển sinh, học bổng cho học sinh, sinh viên DTTS</li>
+        </ul>
+        <div class="pillar-card__stat">
+          <span class="pillar-card__stat-num">314</span>
+          <span class="pillar-card__stat-text">trường Phổ thông Dân tộc Nội trú trên toàn quốc<br /><em style="font-size:10px;">Nguồn: Bộ Giáo dục &amp; Đào tạo (2023)</em></span>
+        </div>
+      </article>
+
+      <!-- Trụ cột 4: Quốc phòng - An ninh -->
+      <article class="pillar-card pillar-card--defense" data-animate="pillar" aria-label="Quốc phòng và An ninh">
+        <div class="pillar-card__head">
+          <div class="pillar-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <div>
+            <p class="pillar-card__name">Trụ cột 4</p>
+            <h3 class="pillar-card__title">Quốc phòng – An ninh</h3>
+          </div>
+        </div>
+        <ul class="pillar-card__list">
+          <li>Xây dựng thế trận lòng dân vững chắc tại vùng biên giới dân tộc</li>
+          <li>Phát huy vai trò người có uy tín trong cộng đồng DTTS — hơn 30.000 người được công nhận</li>
+          <li>Đấu tranh ngăn chặn âm mưu lợi dụng vấn đề dân tộc, tôn giáo của thế lực thù địch</li>
+          <li>Bộ đội biên phòng gắn bó đồng hành cùng đồng bào vùng biên</li>
+        </ul>
+        <div class="pillar-card__stat">
+          <span class="pillar-card__stat-num">30K+</span>
+          <span class="pillar-card__stat-text">người có uy tín trong cộng đồng DTTS được công nhận, phát huy<br /><em style="font-size:10px;">Nguồn: Ủy ban Dân tộc</em></span>
+        </div>
+      </article>
+
+    </div><!-- /.pillars-grid -->
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     SECTION 4 — STATS & DATA VIZ
+     ══════════════════════════════════ -->
+<section class="stats-section" id="stats" aria-label="Thành tựu định lượng">
+  <div class="container">
+    <header class="section-header">
+      <p class="section-label">Thành tựu định lượng</p>
+      <h2 class="section-title">Con số <span class="accent">Biết Nói</span></h2>
+      <p class="section-desc">
+        Kết quả sau 40 năm kiên trì thực hiện chính sách dân tộc — dữ liệu từ nguồn chính thống
+      </p>
+    </header>
+
+    <!-- Top stat cards -->
+    <div class="stats-top-row" aria-label="Chỉ số nổi bật">
+
+      <div class="stat-card" data-animate="stat" data-delay="0">
+        <div class="stat-card__num">
+          <span class="stat-card__unit"></span><span id="counter-poverty" data-target="1.93">0</span><span class="stat-card__unit">%</span>
+        </div>
+        <p class="stat-card__label">Tỷ lệ nghèo đa chiều toàn quốc</p>
+        <p class="stat-card__sub">Năm 2024 — giảm từ hơn 70% (1986)<br /><em>Nguồn: UBDT / tapchikinhtetaichinh.vn</em></p>
+      </div>
+
+      <div class="stat-card" data-animate="stat" data-delay="100">
+        <div class="stat-card__num">
+          <span id="counter-dtts-poverty" data-target="12.55">0</span><span class="stat-card__unit">%</span>
+        </div>
+        <p class="stat-card__label">Tỷ lệ hộ nghèo DTTS (2024)</p>
+        <p class="stat-card__sub">Giảm ~3,4%/năm giai đoạn 2021–2024<br /><em>Nguồn: nhandan.vn, daibieunhandan.vn</em></p>
+      </div>
+
+      <div class="stat-card stat-card--gold" data-animate="stat" data-delay="200">
+        <div class="stat-card__num">
+          <span id="counter-na" data-target="17.84">0</span><span class="stat-card__unit">%</span>
+        </div>
+        <p class="stat-card__label">ĐBQH là người DTTS (Khóa XV)</p>
+        <p class="stat-card__sub">89/499 đại biểu — nhiệm kỳ 2021–2026<br /><em>Nguồn: quochoi.vn</em></p>
+      </div>
+
+      <div class="stat-card" data-animate="stat" data-delay="300">
+        <div class="stat-card__num">
+          <span id="counter-income" data-target="3.3">0</span><span class="stat-card__unit">×</span>
+        </div>
+        <p class="stat-card__label">Thu nhập bình quân DTTS tăng</p>
+        <p class="stat-card__sub">Từ năm 2020 → 2025 (~45,9 tr.đ/người/năm)<br /><em>Nguồn: daibieunhandan.vn</em></p>
+      </div>
+
+    </div><!-- /.stats-top-row -->
+
+    <!-- Charts -->
+    <div class="charts-row">
+
+      <!-- Bar chart: poverty rate trend -->
+      <div class="chart-box" data-animate="chart" id="chart-box-poverty">
+        <h3 class="chart-box__title">Hành trình Giảm nghèo Toàn quốc (1986–2024)</h3>
+        <p class="chart-box__sub">Tỷ lệ hộ nghèo (%) qua các giai đoạn — Nguồn: GSO, UBDT, Ngân hàng Thế giới</p>
+        <div class="chart-canvas-wrap">
+          <canvas id="povertyChart" height="220" aria-label="Biểu đồ tỷ lệ nghèo giảm dần từ 1986 đến 2024" role="img"></canvas>
+        </div>
+        <p class="source-note">* Số liệu 1986-2000 theo tiêu chí cũ. Từ 2020 theo chuẩn nghèo đa chiều. Nguồn tổng hợp: tapchikinhtetaichinh.vn, dangcongsan.org.vn, UBDT</p>
+      </div>
+
+      <!-- Donut chart: National Assembly -->
+      <div class="chart-box" data-animate="chart" id="chart-box-na">
+        <h3 class="chart-box__title">Cơ cấu ĐBQH Khóa XV (2021–2026)</h3>
+        <p class="chart-box__sub">Tỷ lệ đại biểu là người dân tộc thiểu số — Nguồn: quochoi.vn</p>
+        <div class="chart-canvas-wrap">
+          <canvas id="naChart" height="200" aria-label="Biểu đồ tỷ lệ đại biểu Quốc hội là người dân tộc thiểu số 17.84%" role="img"></canvas>
+        </div>
+        <div class="donut-center">
+          <div class="donut-center__num">89</div>
+          <div class="donut-center__label">Đại biểu DTTS<br />/ 499 tổng số</div>
+        </div>
+        <p class="source-note">Nguồn: Văn phòng Quốc hội — quochoi.vn</p>
+      </div>
+
+    </div><!-- /.charts-row -->
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     SECTION 5 — CONCLUSION
+     ══════════════════════════════════ -->
+<section class="conclusion-section" id="conclusion" aria-label="Bài học và ý nghĩa">
+  <div class="container">
+    <header class="section-header" style="text-align:center;">
+      <p class="section-label" style="justify-content:center;"><span>Tổng kết &amp; Ý nghĩa</span></p>
+      <h2 class="section-title">Ba Bài học <span class="accent">Cốt lõi</span></h2>
+      <p class="section-desc" style="margin:0 auto; text-align:center;">
+        Những nguyên tắc bất biến trong 40 năm thực hiện chính sách dân tộc thời kỳ Đổi mới
+      </p>
+    </header>
+
+    <!-- Tripod SVG "Kiềng 3 chân" -->
+    <div class="tripod-wrap" aria-hidden="true">
+      <svg width="220" height="200" viewBox="0 0 220 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Biểu tượng kiềng 3 chân — 3 bài học cốt lõi">
+        <!-- 3 legs -->
+        <line x1="110" y1="80" x2="30" y2="185" stroke="#C62828" stroke-width="8" stroke-linecap="round"/>
+        <line x1="110" y1="80" x2="110" y2="190" stroke="#C62828" stroke-width="8" stroke-linecap="round"/>
+        <line x1="110" y1="80" x2="190" y2="185" stroke="#C62828" stroke-width="8" stroke-linecap="round"/>
+        <!-- Base feet -->
+        <circle cx="30" cy="185" r="8" fill="#C62828"/>
+        <circle cx="110" cy="190" r="8" fill="#C62828"/>
+        <circle cx="190" cy="185" r="8" fill="#C62828"/>
+        <!-- Top platform -->
+        <circle cx="110" cy="75" r="36" fill="#C62828"/>
+        <!-- Star -->
+        <polygon points="110,58 115.6,71.8 130,71.8 118.8,80.2 123.3,94 110,85.8 96.7,94 101.2,80.2 90,71.8 104.4,71.8" fill="#FFD700"/>
+      </svg>
+    </div>
+
+    <!-- 3 Lessons -->
+    <div class="lessons-grid" role="list">
+
+      <article class="lesson-card" data-animate="lesson" role="listitem">
+        <div class="lesson-card__num">01</div>
+        <h3 class="lesson-card__title">Dân là Gốc</h3>
+        <p class="lesson-card__desc">
+          Lấy con người làm trung tâm của mọi chính sách. Phát triển vì con người và do con người — không áp đặt mà tôn trọng nhu cầu, nguyện vọng của đồng bào dân tộc.
+        </p>
+      </article>
+
+      <article class="lesson-card" data-animate="lesson" role="listitem">
+        <div class="lesson-card__num">02</div>
+        <h3 class="lesson-card__title">Đầu tư Trọng tâm</h3>
+        <p class="lesson-card__desc">
+          Tập trung nguồn lực có hạn vào các vùng đặc biệt khó khăn. Ưu tiên hạ tầng thiết yếu (điện, đường, trường, trạm) làm nền tảng cho phát triển bền vững.
+        </p>
+      </article>
+
+      <article class="lesson-card" data-animate="lesson" role="listitem">
+        <div class="lesson-card__num">03</div>
+        <h3 class="lesson-card__title">Phát huy Nội lực</h3>
+        <p class="lesson-card__desc">
+          Khơi dậy khát vọng tự lực, tự cường của đồng bào. Tránh tư tưởng trông chờ, ỷ lại. Nhà nước hỗ trợ — cộng đồng dẫn dắt — người dân làm chủ.
+        </p>
+      </article>
+
+    </div><!-- /.lessons-grid -->
+
+    <!-- Quote banner -->
+    <div class="quote-banner" role="blockquote">
+      <p class="quote-banner__text">
+        "Đoàn kết các dân tộc có vị trí chiến lược lâu dài trong sự nghiệp cách mạng nước ta"
+      </p>
+      <p class="quote-banner__attr">— Nghị quyết số 24-NQ/TW, ngày 12/3/2003 của BCH Trung ương Đảng khóa IX</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     FOOTER
+     ══════════════════════════════════ -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__inner">
+      <div>
+        <div class="footer__brand">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#C62828" aria-hidden="true">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+          </svg>
+          <span>Chính sách Dân tộc ĐCSVN — Thời kỳ Đổi mới</span>
+        </div>
+        <p class="footer__desc">
+          Infographic thực hiện dựa trên các văn bản chính sách chính thống, số liệu từ cơ quan nhà nước và báo chí được kiểm duyệt. Tất cả số liệu có dẫn nguồn rõ ràng.
+          <br /><br />
+          Hình ảnh sử dụng từ Wikimedia Commons (giấy phép CC-BY/CC0) và tài liệu công khai của các cơ quan nhà nước.
+        </p>
+      </div>
+      <div>
+        <p class="footer__sources-title">Nguồn tham khảo chính</p>
+        <ul class="footer__sources-list">
+          <li>dangcongsan.vn — Văn kiện Đảng</li>
+          <li>ubdt.gov.vn — Ủy ban Dân tộc</li>
+          <li>quochoi.vn — Văn phòng Quốc hội (ĐBQH DTTS)</li>
+          <li>nhandan.vn — Tỷ lệ nghèo DTTS 2024</li>
+          <li>daibieunhandan.vn — Thu nhập bình quân DTTS</li>
+          <li>tapchikinhtetaichinh.vn — Dữ liệu nghèo tổng hợp</li>
+          <li>baocantho.com.vn / vietnamnet.vn — CT135 GĐ1</li>
+          <li>thuvienphapluat.vn — Văn bản pháp luật</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>Dữ liệu cập nhật đến năm 2024–2025 · Thực hiện với nguồn tham khảo được xác minh · Không sử dụng AI-generated image</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

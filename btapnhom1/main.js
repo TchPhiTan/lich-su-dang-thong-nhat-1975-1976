@@ -174,12 +174,12 @@
         name: 'Dấu Hội Nghị Trung Ương 24',
         authority: 'BAN CHẤP HÀNH TRUNG ƯƠNG ĐẢNG LAO ĐỘNG VIỆT NAM',
         date: 'Tháng 9/1975',
-        location: 'Đà Lạt',
+        location: 'Trung ương Đảng',
         quote: 'Quy luật khách quan — Nguyện vọng thiết tha',
-        memo: 'Hội nghị Trung ương lần thứ 24 tại Đà Lạt đề ra chủ trương chiến lược: Khẩn trương hoàn thành thống nhất Tổ quốc về mặt Nhà nước thông qua Tổng tuyển cử dân chủ trên phạm vi toàn quốc. Đây là bản thiết kế thể chế mở đường cho kỷ nguyên mới.',
+        memo: 'Hội nghị Trung ương lần thứ 24 đề ra chủ trương chiến lược: Khẩn trương hoàn thành thống nhất Tổ quốc về mặt Nhà nước thông qua Tổng tuyển cử dân chủ trên phạm vi toàn quốc. Đây là bản thiết kế thể chế mở đường cho kỷ nguyên mới.',
         svgType: 'square',
         centerText: 'HỘI NGHỊ TW 24',
-        subText: 'ĐÀ LẠT • 9/1975',
+        subText: 'HỘI NGHỊ • 9/1975',
         borderText: 'BAN CHẤP HÀNH TRUNG ƯƠNG ĐẢNG LAO ĐỘNG VIỆT NAM ★',
         rotation: '2.5deg',
       },
@@ -555,7 +555,7 @@
                   <h4 class="font-serif font-bold text-xs text-lacquer-light mb-1">2. Bốn bước đi lịch sử quyết định (1975–1976)</h4>
                   <div class="grid grid-cols-1 md:grid-cols-2 gap-2 mt-1.5 font-sans text-xs text-parchment/80">
                     <div class="p-2 rounded bg-black/20 border border-white/5">
-                      <strong class="text-amber">Bước 1 (9/1975):</strong> Hội nghị Trung ương 24 tại Đà Lạt đề ra chủ trương chiến lược.
+                      <strong class="text-amber">Bước 1 (9/1975):</strong> Hội nghị Trung ương 24 đề ra chủ trương chiến lược.
                     </div>
                     <div class="p-2 rounded bg-black/20 border border-white/5">
                       <strong class="text-amber">Bước 2 (11/1975):</strong> Hội nghị Hiệp thương chính trị tại Sài Gòn đạt đồng thuận tuyệt đối.
@@ -626,7 +626,7 @@
               II. Bốn bước đi lịch sử quyết định (1975–1976)
             </h3>
             <ul style="font-size: 13.5px; line-height: 1.6; margin: 0; padding-left: 20px;">
-              <li><strong>1. Hội nghị Ban Chấp hành Trung ương Đảng lần thứ 24 (9/1975 tại Đà Lạt):</strong> Đề ra chủ trương chiến lược khẩn trương hoàn thành thống nhất Tổ quốc về mặt Nhà nước thông qua Tổng tuyển cử dân chủ.</li>
+              <li><strong>1. Hội nghị Ban Chấp hành Trung ương Đảng lần thứ 24 (9/1975):</strong> Đề ra chủ trương chiến lược khẩn trương hoàn thành thống nhất Tổ quốc về mặt Nhà nước thông qua Tổng tuyển cử dân chủ.</li>
               <li><strong>2. Hội nghị Hiệp thương chính trị (11/1975 tại Sài Gòn):</strong> Hai phái đoàn miền Bắc và miền Nam thống nhất hoàn toàn về nguyên tắc và kế hoạch Tổng tuyển cử.</li>
               <li><strong>3. Ngày hội Tổng tuyển cử toàn quốc (25/4/1976):</strong> Hơn 23 triệu cử tri (98,77%) đi bầu, bầu ra 492 đại biểu Quốc hội thống nhất.</li>
               <li><strong>4. Kỳ họp thứ nhất Quốc hội khóa VI (6–7/1976 tại Hà Nội):</strong> Hoàn thành trọn vẹn việc thống nhất đất nước về mặt Nhà nước.</li>
@@ -732,7 +732,7 @@
         title: 'Đồng chí Lê Duẩn',
         role: 'Bí thư thứ nhất Ban Chấp hành Trung ương Đảng',
         tag: 'Chân dung Lãnh đạo',
-        desc: 'Chủ trì Hội nghị lần thứ 24 Ban Chấp hành Trung ương Đảng tại Đà Lạt (tháng 9/1975), trực tiếp hoạch định và lãnh đạo quyết sách chiến lược: Thống nhất đất nước vừa là quy luật khách quan, vừa là nguyện vọng thiết tha nhất của toàn thể nhân dân hai miền.',
+        desc: 'Chủ trì Hội nghị lần thứ 24 Ban Chấp hành Trung ương Đảng (tháng 9/1975), trực tiếp hoạch định và lãnh đạo quyết sách chiến lược: Thống nhất đất nước vừa là quy luật khách quan, vừa là nguyện vọng thiết tha nhất của toàn thể nhân dân hai miền.',
         source: 'Ảnh tư liệu lịch sử: Thông tấn xã Việt Nam / Viện Lịch sử Đảng',
         code: 'HS-1975-TW24-LD'
       },
@@ -986,9 +986,9 @@
       {
         src: 'assets/images/le_duan.jpg',
         code: 'HS-1975-TW24-LD',
-        hint: 'Hội nghị lần thứ 24 Ban Chấp hành Trung ương Đảng tại Đà Lạt (tháng 9/1975), đồng chí Tổng Bí thư Lê Duẩn và đồng chí Trường Chinh chủ trì.',
+        hint: 'Hội nghị lần thứ 24 Ban Chấp hành Trung ương Đảng (tháng 9/1975), đồng chí Tổng Bí thư Lê Duẩn và đồng chí Trường Chinh chủ trì.',
         title: 'Đồng chí Lê Duẩn (Bí thư thứ nhất Ban Chấp hành Trung ương Đảng)',
-        context: 'Chủ trì Hội nghị lần thứ 24 Ban Chấp hành Trung ương Đảng tại Đà Lạt (tháng 9/1975), trực tiếp hoạch định và lãnh đạo quyết sách chiến lược: Thống nhất đất nước vừa là quy luật khách quan, vừa là nguyện vọng thiết tha nhất của toàn thể nhân dân hai miền.',
+        context: 'Chủ trì Hội nghị lần thứ 24 Ban Chấp hành Trung ương Đảng (tháng 9/1975), trực tiếp hoạch định và lãnh đạo quyết sách chiến lược: Thống nhất đất nước vừa là quy luật khách quan, vừa là nguyện vọng thiết tha nhất của toàn thể nhân dân hai miền.',
         source: 'Ảnh tư liệu lịch sử: Thông tấn xã Việt Nam / Viện Lịch sử Đảng',
       },
       {
@@ -1150,8 +1150,8 @@
         incorrect: '❌ Chưa chính xác. Đáp án đúng: Vì tuy lãnh thổ đã giải phóng nhưng đất nước vẫn tồn tại hai nhà nước, hai chính phủ, hai hệ thống pháp luật và đồng tiền riêng biệt (Việt Nam Dân chủ Cộng hòa ở miền Bắc và Chính phủ Cách mạng Lâm thời ở miền Nam).'
       },
       2: {
-        correct: '✅ Chính xác! Hội nghị lần thứ 24 Ban Chấp hành Trung ương Đảng họp tại Đà Lạt (tháng 9/1975) đã khẳng định tính tất yếu của việc khẩn trương thống nhất Tổ quốc về mặt Nhà nước thông qua Tổng tuyển cử dân chủ.',
-        incorrect: '❌ Chưa chính xác. Đáp án đúng: Hội nghị lần thứ 24 của Ban Chấp hành Trung ương Đảng Lao động Việt Nam họp tại Đà Lạt (tháng 9 năm 1975).'
+        correct: '✅ Chính xác! Hội nghị lần thứ 24 Ban Chấp hành Trung ương Đảng (tháng 9/1975) đã khẳng định tính tất yếu của việc khẩn trương thống nhất Tổ quốc về mặt Nhà nước thông qua Tổng tuyển cử dân chủ.',
+        incorrect: '❌ Chưa chính xác. Đáp án đúng: Hội nghị lần thứ 24 của Ban Chấp hành Trung ương Đảng Lao động Việt Nam (tháng 9 năm 1975).'
       },
       3: {
         correct: '✅ Chính xác! Ngày 25/4/1976 thực sự là ngày hội non sông khi hơn 23 triệu cử tri (98,77%) đi bỏ phiếu, bầu ra 492 đại biểu đại diện cho khối đại đoàn kết toàn dân tộc.',
@@ -1493,13 +1493,13 @@
       },
       {
         chapter: 2,
-        name: 'Đà Lạt — Tỉnh Lâm Đồng',
-        sub: 'Hội nghị Ban Chấp hành Trung ương 24',
-        time: 'Tháng 9/1975',
+        name: 'Hội nghị Trung ương lần thứ 24',
+        sub: 'Ban Chấp hành Trung ương Đảng (khóa III)',
+        time: 'Tháng 9/1975 (Nghị quyết 29/9/1975)',
         event: 'Đề ra quyết sách chiến lược thống nhất Nhà nước',
-        coords: '11.9404° N, 108.4583° E (Đà Lạt)',
-        pinId: 'hud-pin-dalat',
-        desc: 'Tại thành phố Đà Lạt, Hội nghị Trung ương lần thứ 24 khẳng định: "Thống nhất đất nước vừa là quy luật khách quan, vừa là nguyện vọng thiết tha nhất của toàn thể nhân dân hai miền".',
+        coords: 'Nghị quyết số 247-NQ/TW',
+        pinId: null,
+        desc: 'Ban Chấp hành Trung ương Đảng họp Hội nghị lần thứ 24, ban hành Nghị quyết khẳng định: "Thống nhất đất nước vừa là quy luật khách quan của sự phát triển cách mạng Việt Nam, vừa là nguyện vọng thiết tha nhất của toàn thể nhân dân hai miền".',
       },
       {
         chapter: 3,
@@ -1675,9 +1675,6 @@
 
       if (chapterIdx === 5 || chapterIdx === 6) {
         const pin = document.getElementById('atlas-pin-hanoi');
-        if (pin) pin.classList.add('active');
-      } else if (chapterIdx === 2) {
-        const pin = document.getElementById('atlas-pin-dalat');
         if (pin) pin.classList.add('active');
       } else if (chapterIdx === 1 || chapterIdx === 3) {
         const pin = document.getElementById('atlas-pin-saigon');

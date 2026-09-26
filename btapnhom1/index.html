@@ -149,8 +149,8 @@
         <!-- Phu Quoc Island Label -->
         <text x="160" y="2030" fill="#F3E8D0" font-size="24" font-weight="600" opacity="0.75">Phú Quốc</text>
 
-        <!-- Dynamic Journey Path connecting events -->
-        <path id="hud-journey-path" d="M 692,1942 L 940,1771 L 692,1942 L 572,436" fill="none" stroke="rgba(217, 119, 6, 0.5)" stroke-dasharray="10 10" stroke-width="3" />
+        <!-- Dynamic Journey Path connecting events (Sài Gòn - Hà Nội) -->
+        <path id="hud-journey-path" d="M 692,1942 L 572,436" fill="none" stroke="rgba(217, 119, 6, 0.5)" stroke-dasharray="10 10" stroke-width="3" />
 
         <!-- Pins -->
         <!-- Ha Noi (Ba Dinh) - Chapter 5 -->
@@ -158,13 +158,6 @@
           <circle cx="572" cy="436" r="32" class="pin-halo" />
           <circle cx="572" cy="436" r="16" class="pin-core" />
           <text x="605" y="445" class="pin-label">Hà Nội</text>
-        </g>
-
-        <!-- Da Lat - Chapter 2 -->
-        <g class="map-pin-group" id="hud-pin-dalat" onclick="scrollToChapter(2)" title="Đà Lạt — Hội nghị Ban Chấp hành Trung ương Đảng lần thứ 24">
-          <circle cx="940" cy="1771" r="32" class="pin-halo" />
-          <circle cx="940" cy="1771" r="16" class="pin-core" />
-          <text x="760" y="1778" class="pin-label">Đà Lạt</text>
         </g>
 
         <!-- Sai Gon - Chapter 1 & 3 -->
@@ -255,19 +248,14 @@
               <!-- Phu Quoc Island Label -->
               <text x="160" y="2030" fill="#F3E8D0" font-size="24" font-weight="600" opacity="0.75">Phú Quốc</text>
 
-              <!-- Connected Route -->
-              <path d="M 692,1942 L 940,1771 L 692,1942 L 572,436" fill="none" stroke="#D97706" stroke-dasharray="10 10" stroke-width="3" />
+              <!-- Connected Route (Sài Gòn - Hà Nội) -->
+              <path d="M 692,1942 L 572,436" fill="none" stroke="#D97706" stroke-dasharray="10 10" stroke-width="3" />
 
               <!-- Atlas Markers -->
               <g class="map-pin-group" id="atlas-pin-hanoi" onclick="selectAtlasMilestone(5)">
                 <circle cx="572" cy="436" r="34" class="pin-halo" />
                 <circle cx="572" cy="436" r="18" class="pin-core" />
                 <text x="605" y="445" class="pin-label">Hà Nội</text>
-              </g>
-              <g class="map-pin-group" id="atlas-pin-dalat" onclick="selectAtlasMilestone(2)">
-                <circle cx="940" cy="1771" r="34" class="pin-halo" />
-                <circle cx="940" cy="1771" r="18" class="pin-core" />
-                <text x="760" y="1778" class="pin-label">Đà Lạt</text>
               </g>
               <g class="map-pin-group" id="atlas-pin-saigon" onclick="selectAtlasMilestone(3)">
                 <circle cx="692" cy="1942" r="34" class="pin-halo" />
@@ -801,7 +789,7 @@
               <span class="text-[11px] font-serif font-bold text-amber flex items-center gap-1.5 uppercase tracking-wide">
                 <i data-lucide="award" class="w-3.5 h-3.5 text-amber"></i> Lãnh đạo Chủ chốt & Hội nghị TW 24
               </span>
-              <span class="text-[9.5px] text-parchment/60 font-mono">Đà Lạt — Tháng 9/1975</span>
+              <span class="text-[9.5px] text-parchment/60 font-mono">Tháng 9/1975</span>
             </div>
 
             <!-- Selector Pills for 3 Leaders -->
@@ -841,7 +829,7 @@
                   <span>Bí thư thứ nhất Ban Chấp hành Trung ương Đảng</span>
                 </div>
                 <div class="text-[11px] text-parchment/85 leading-relaxed mt-1" id="ch2-leader-desc">
-                  Chủ trì Hội nghị lần thứ 24 Ban Chấp hành Trung ương Đảng tại Đà Lạt (tháng 9/1975), hoạch định chủ trương chiến lược: Thống nhất đất nước vừa là quy luật khách quan, vừa là nguyện vọng thiết tha nhất của toàn thể nhân dân hai miền.
+                  Chủ trì Hội nghị lần thứ 24 Ban Chấp hành Trung ương Đảng (tháng 9/1975), hoạch định chủ trương chiến lược: Thống nhất đất nước vừa là quy luật khách quan, vừa là nguyện vọng thiết tha nhất của toàn thể nhân dân hai miền.
                 </div>
                 <div class="caption-source mt-1" id="ch2-leader-source">Ảnh tư liệu lịch sử: Thông tấn xã Việt Nam / Viện Lịch sử Đảng</div>
               </div>
@@ -862,12 +850,12 @@
             </div>
             <div>
               <h2 class="font-serif text-2xl font-bold text-parchment">Hội nghị Trung ương 24</h2>
-              <p class="text-xs text-amber/70 font-semibold uppercase tracking-wider">Tháng 9 năm 1975 — Đà Lạt</p>
+              <p class="text-xs text-amber/70 font-semibold uppercase tracking-wider">Tháng 9 năm 1975 (Nghị quyết 29/9/1975)</p>
             </div>
           </div>
           <p class="text-parchment/80 leading-relaxed mb-4">
-            Tháng 9 năm 1975, giữa không gian yên bình của thành phố Đà Lạt, Ban Chấp hành Trung ương Đảng Lao động Việt Nam
-            đã triệu tập <strong class="text-parchment">Hội nghị lần thứ 24</strong> — một hội nghị mang ý nghĩa bản lề đặt nền móng cho vận mệnh non sông.
+            Tháng 9 năm 1975, Ban Chấp hành Trung ương Đảng Lao động Việt Nam
+            đã triệu tập <strong class="text-parchment">Hội nghị lần thứ 24 (khóa III)</strong> — một hội nghị mang ý nghĩa bản lề đặt nền móng cho vận mệnh non sông, ban hành Nghị quyết số 247-NQ/TW ngày 29/9/1975.
           </p>
           <div class="p-3.5 rounded-lg bg-amber/10 border-l-4 border-amber">
             <p class="text-sm text-parchment/80 italic font-serif">
@@ -1691,7 +1679,7 @@
               <p class="text-xs md:text-sm text-parchment/80">Hội nghị Hiệp thương chính trị tại Sài Gòn (tháng 11 năm 1975).</p>
             </div>
             <div class="quiz-option" data-question="2" data-value="b" onclick="selectQuizOption(this)">
-              <p class="text-xs md:text-sm text-parchment/80">Hội nghị lần thứ 24 của Ban Chấp hành Trung ương Đảng Lao động Việt Nam họp tại Đà Lạt (tháng 9 năm 1975).</p>
+              <p class="text-xs md:text-sm text-parchment/80">Hội nghị lần thứ 24 của Ban Chấp hành Trung ương Đảng Lao động Việt Nam (tháng 9 năm 1975).</p>
             </div>
             <div class="quiz-option" data-question="2" data-value="c" onclick="selectQuizOption(this)">
               <p class="text-xs md:text-sm text-parchment/80">Kỳ họp thứ nhất của Quốc hội khóa VI tại Hà Nội (tháng 6 và tháng 7 năm 1976).</p>
